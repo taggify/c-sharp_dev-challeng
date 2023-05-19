@@ -1,4 +1,4 @@
-# Product Management API Challenge
+# Backend C# API Challenge
 
 This is a coding challenge to evaluate your skills in C#, ASP.NET Web API, LINQ, classes, and SQL databases. The challenge involves creating a product management API that allows basic CRUD operations for products and stores the data in a SQL Server database.
 
