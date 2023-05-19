@@ -37,9 +37,8 @@ You can earn extra points by implementing the following additional features:
 To get started with the challenge, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Set up the SQL Server database and update the connection string in the app configuration file.
-3. Build and run the application.
-4. Test the API endpoints using a tool like Postman.
+2. Build and run the application.
+3. Test the API endpoints using a tool like Postman.
 
 ## Project Structure
 
