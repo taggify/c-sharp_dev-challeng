@@ -30,7 +30,7 @@ You can earn extra points by implementing the following additional features:
 - Pagination for the list of products.
 - Filtering and sorting options for the list of products.
 - Basic authentication and authorization to secure the API.
-- Implementing services with interfaces with Dependency Injection using the Singleton pattern: 
+- Implementing services with interfaces and Dependency Injection using the Singleton pattern: 
 
 ## Getting Started
 
