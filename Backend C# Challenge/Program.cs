@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Backend_C_Challenge.Models;
+using Backend_C__Challenge.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"))); // Utiliza GetConnectionString
+
+// Agrega el servicio ProductService
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
